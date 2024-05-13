@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./HTML-Sayfa.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Öznitelikler 2</title>
+</head>
+<body>
+    <div style="background-color: gray; height: 100%;width: 20%;">
+    <nav style="width: 100%; height: 100%;" id="nav">
+            <header class="nav-header">HTML</header>
+        <div>
+                <ul class="liste">
+                    <a href="./HTML-Giriş.html"><li>HTML Giriş</li></a>
+                    <a href="./HTML-Etiketler.html"><li>HTML Etiketler</li></a>
+                    <a href="./HTML-Öznitelikler.html"><li>HTML Öznitelikler</li></a>
+                    <a href="./HTML-Öznitelikler2.html"><li style="background-color: green;">HTML Öznitelikler 2</li></a>
+                    <a href="./HTML-Başlıklar.html"><li>HTML Başlıklar</li></a>
+                    <a href="./HTML-Paragraf.html"><li>HTML Paragraflar</li></a>
+                    <a href="./HTML-Style.html"><li>HTML Style</li></a>
+                    <a href="./HTML-Style2.html"><li>HTML Style 2</li></a>
+                    <a href="./HTML-MetinBiç.html"><li>HTML Metin Biçimlendirmesi</li></a>
+                    <a href="./HTML-MetinBiç2.html"><li>HTML Metin Biçimlendirmesi 2</li></a>
+                </ul>
+        </div>
+    </nav>
+</div>
+
+    <main style="width: 80%;  margin-left: 30px;">
+        <div>
+            <h1>HTML Öznitelikler 2</h1>
+        <div class="btn">
+            <a href="./HTML-Öznitelikler.html">
+            <button>
+                <span class="span-mother">
+                  <span>Ö</span>
+                  <span>n</span>
+                  <span>c</span>
+                  <span>e</span>
+                  <span>k</span>
+                  <span>i</span>
+                </span>
+                <span class="span-mother2">
+                    
+                   <span><i class="fa-solid fa-arrow-left"></i></span>
+                </span>
+              </button>
+            </a>
+
+            <a href="./HTML-Başlıklar.html">
+              <button style="margin-right: 3px;">
+                <span class="span-mother">
+                  <span>S</span>
+                  <span>o</span>
+                  <span>n</span>
+                  <span>r</span>
+                  <span>a</span>
+                  <span>k</span>
+                  <span>i</span>
+                </span>
+                <span class="span-mother2">
+                  <span><i class="fa-solid fa-arrow-right"></i></span>
+                </span>
+              </button>
+            </a>
+        </div>
+        
+    <hr>
+       <h2>Genişlik ve yükseklik Nitelikleri</h2>
+       <p> <code class="spes_tagname">&lt;img&gt; </code>
+        etiketi ayrıca görüntünün genişliğini ve yüksekliğini (piksel cinsinden) belirten genişlik ve yükseklik niteliklerini de içermelidir:</p>
+
+        <div style="font-size: 20px; padding: 10px; margin-bottom: 10px;">
+            <span class="spes_tagname">
+                <span class="spes_tag"><</span>img src="img_girl.jpg" width="500" height="600"<span class="spes_tag">></span>
+            </span>
+        </div>
+        <hr>
+        <h2>alt Özelliği</h2>
+
+        <p><code class="spes_tagname">&lt;img&gt; </code> etiketi için gereken 
+            <code class="spes_tagname">alt</code>
+            özelliği, görselin herhangi bir nedenle görüntülenememesi durumunda görsel için alternatif metni belirtir. Bunun nedeni yavaş bağlantıdan, 
+            <code class="spes_tagname">src</code>
+            özelliğindeki bir hatadan ya da kullanıcının ekran okuyucu kullanması olabilir.
+        </p>
+        <p>
+            &lt;img&gt; src="img_girl.jpg" alt="Girl with a jacket">
+        </p>
+        <hr>
+        <h2>Style Özelliği</h2>
+        <p> <code class="spes_tagname">style </code>
+            özelliği, bir öğeye renk, yazı tipi, boyut ve daha fazlası gibi stiller eklemek için kullanılır.
+        </p>
+        <p>
+            <div style="font-size: 20px; padding: 10px; margin-bottom: 10px;">
+                <span class="spes_tagname">
+                    <span class="spes_tag"><</span>p style="color:red;"<span class="spes_tag">></span>
+                </span>
+                Bu kırmızı bir paragraf.
+                <span class="spes_tagname">
+                    <span class="spes_tag"><</span>/p<span class="spes_tag">></span>
+                </span>
+            </div>
+        </p>
+        <hr>
+        <h2>Title Özelliği</h2>
+        <p>
+            
+            <code class="spes_tagname">title </code>
+            özelliği, bir öğe hakkında bazı ekstra bilgileri tanımlar.
+
+            Başlık özelliğinin değeri, fareyi öğenin üzerine getirdiğinizde bir araç ipucu olarak görüntülenecektir:
+        </p>
+
+        <p>
+            <div style="font-size: 20px; padding: 10px; margin-bottom: 10px;">
+                <span class="spes_tagname">
+                    <span class="spes_tag"><</span>p title="İpucu"<span class="spes_tag">></span>
+                </span>
+                Bu bir paragraf
+                <span class="spes_tagname">
+                    <span class="spes_tag"><</span>/p<span class="spes_tag">></span>
+                </span>
+            </div>
+        </p>
+
+    </main>
+</body>
+</html>
